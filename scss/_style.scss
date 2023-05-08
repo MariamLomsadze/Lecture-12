@@ -1,0 +1,23 @@
+header{
+    height: 80px;
+    background-color: $mycolor2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        font-size: 60px;
+        color: bisque;
+    }
+    nav{
+        width: 500px;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                font-size: 24px;
+                color: $mycolor1;
+            }
+        }
+    }
+}
